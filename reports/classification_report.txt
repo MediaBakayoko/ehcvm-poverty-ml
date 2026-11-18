@@ -1,0 +1,21 @@
+Meilleur modèle : GradientBoosting
+LogisticRegression: AUC=0.874 F1=0.680
+RandomForest: AUC=0.887 F1=0.692
+GradientBoosting: AUC=0.892 F1=0.669
+
+Top variables discriminantes:
+hhsize                     0.444362
+possede_tv                 0.202680
+assainissement_ameliore    0.071873
+region                     0.065450
+hbranch                    0.048264
+hage                       0.027599
+electricite                0.024072
+cluster                    0.021559
+eau_potable                0.018775
+halfab                     0.016423
+milieu                     0.014936
+hdiploma                   0.010241
+hactiv7j                   0.008126
+hcsp                       0.007403
+hgender                    0.007215

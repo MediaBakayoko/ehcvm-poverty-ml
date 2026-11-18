@@ -1,0 +1,38 @@
+Variable dépendante : log(pcexp) — dépense par équivalent-adulte (niveau de vie)
+
+                            WLS Regression Results                            
+==============================================================================
+Dep. Variable:                  pcexp   R-squared:                       0.513
+Model:                            WLS   Adj. R-squared:                  0.512
+Method:                 Least Squares   F-statistic:                     1138.
+Date:                Wed, 18 Nov 2026   Prob (F-statistic):               0.00
+Time:                        21:29:24   Log-Likelihood:                -10393.
+No. Observations:               12992   AIC:                         2.081e+04
+Df Residuals:                   12979   BIC:                         2.091e+04
+Df Model:                          12                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          13.5845      0.030    449.116      0.000      13.525      13.644
+hhsize         -0.1175      0.002    -75.579      0.000      -0.121      -0.114
+hage            0.0006      0.000      1.705      0.088   -8.42e-05       0.001
+hgender        -0.0671      0.011     -6.270      0.000      -0.088      -0.046
+heduc          -0.0243      0.005     -5.346      0.000      -0.033      -0.015
+hdiploma        0.0853      0.005     18.523      0.000       0.076       0.094
+halfab          0.1375      0.012     11.694      0.000       0.114       0.161
+hactiv7j        0.0156      0.004      3.927      0.000       0.008       0.023
+hbranch         0.0221      0.002     14.165      0.000       0.019       0.025
+milieu         -0.1293      0.010    -12.502      0.000      -0.150      -0.109
+region         -0.0024      0.000     -5.701      0.000      -0.003      -0.002
+electricite     0.1741      0.010     17.833      0.000       0.155       0.193
+eau_potable     0.1356      0.009     14.735      0.000       0.118       0.154
+==============================================================================
+Omnibus:                      843.235   Durbin-Watson:                   1.525
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3016.045
+Skew:                           0.257   Prob(JB):                         0.00
+Kurtosis:                       5.304   Cond. No.                         354.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
