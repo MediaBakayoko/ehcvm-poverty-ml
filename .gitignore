@@ -1,2 +1,5 @@
 data/raw/*
 !data/raw/.gitkeep
+data/processed/*.csv
+data/processed/*.geojson
+!data/processed/pca_loadings.csv
