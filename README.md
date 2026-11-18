@@ -64,6 +64,10 @@ Dans ce projet, la cible supervisée "pauvre / non pauvre" provient **exclusivem
    en fonction des caractéristiques du ménage (éducation, emploi, région, milieu).
 6. **Cartographie** (`src/06_mapping.py`) : taux de pauvreté et typologies par région.
 
+## Article complet
+Voir [`ARTICLE.md`](ARTICLE.md) pour l'analyse narrative complète avec interprétation des résultats,
+cartes, graphiques et recommandations.
+
 ## Résultats produits (`reports/`)
 - Carte des disparités régionales de pauvreté.
 - Typologie des ménages (clusters K-Means).
