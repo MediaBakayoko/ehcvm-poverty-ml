@@ -1,5 +1,5 @@
 """
-01_build_dataset.py — Fusionne les fichiers EHCVM 2018-2019 (Côte d'Ivoire) en un dataset
+01_build_dataset.py  -  Fusionne les fichiers EHCVM 2018-2019 (Côte d'Ivoire) en un dataset
 ménage prêt pour l'ACP, le clustering, la classification et la régression.
 
 Entrées (CSV, data/raw/) : ehcvm_menage_civ2018.csv, ehcvm_welfare_civ2018.csv
@@ -9,7 +9,7 @@ IMPORTANT (pauvreté vs quintile de richesse) :
 - La cible officielle de pauvreté monétaire est construite ICI à partir de
   ehcvm_welfare_civ2018 : pauvre_officiel = 1 si pcexp (dépense/équivalent-adulte) < zref (seuil officiel INS).
 - Le quintile de richesse ('quintile' dans ehcvm_welfare) est un indice RELATIF basé sur le classement
-  de pcexp en 5 groupes égaux — ce n'est PAS un indicateur de pauvreté absolue et n'est jamais utilisé
+  de pcexp en 5 groupes égaux  -  ce n'est PAS un indicateur de pauvreté absolue et n'est jamais utilisé
   comme cible dans ce projet.
 """
 import os

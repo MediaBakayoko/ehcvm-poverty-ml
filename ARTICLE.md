@@ -1,6 +1,6 @@
 # Profilage multidimensionnel de la pauvreté en Côte d'Ivoire par Machine Learning
 
-*Média Marcel Bakayoko — Expert géomatique / données géospatiales & agricoles / GeoAI / Suivi-Évaluation*
+*Média Marcel Bakayoko  -  Expert géomatique / données géospatiales & agricoles / GeoAI / Suivi-Évaluation*
 
 ## Le problème
 
@@ -48,8 +48,8 @@ Code complet et reproductible : `src/01_build_dataset.py` à `src/06_mapping.py`
 ![Carte des disparités régionales](reports/maps/poverty_rate_by_region.png)
 
 Le taux de pauvreté officiel varie de **5,7% dans le District Autonome d'Abidjan à 53,4% dans le Tonkpi**,
-soit un rapport de 1 à 9. Les cinq régions les plus touchées — Tonkpi, Kabadougou, Bafing, Cavally,
-N'Zi — sont concentrées à l'Ouest et au Nord-Ouest du pays, loin du pôle économique abidjanais.
+soit un rapport de 1 à 9. Les cinq régions les plus touchées  -  Tonkpi, Kabadougou, Bafing, Cavally,
+N'Zi  -  sont concentrées à l'Ouest et au Nord-Ouest du pays, loin du pôle économique abidjanais.
 À l'inverse, Abidjan, Sud-Comoé, Gontougo et Yamoussoukro affichent les taux les plus faibles (moins de 21%).
 
 Cette géographie de la pauvreté recoupe des dynamiques connues (enclavement, éloignement des marchés,
@@ -59,7 +59,7 @@ ciblage plus fin que les grandes zones agroécologiques habituellement utilisée
 ### 2. Cinq profils de ménages, du plus vulnérable au plus aisé
 
 L'ACP sur les conditions de vie dégage un premier axe (28% de variance expliquée) dominé par
-l'électricité, la possession d'un téléviseur, l'assainissement et les matériaux du logement — un
+l'électricité, la possession d'un téléviseur, l'assainissement et les matériaux du logement  -  un
 indicateur synthétique de confort matériel. Le clustering K-Means sur ces scores fait émerger 5 groupes
 clairement différenciés :
 
@@ -80,7 +80,7 @@ pour toute intervention d'infrastructure de base.
 ![Courbes ROC](reports/figures/roc_curves.png)
 
 Le modèle Gradient Boosting atteint une AUC de 0,89 pour prédire le statut de pauvreté officiel à partir
-des caractéristiques du ménage — une performance élevée pour ce type d'exercice.
+des caractéristiques du ménage  -  une performance élevée pour ce type d'exercice.
 
 ![Variables discriminantes](reports/figures/feature_importance.png)
 
@@ -108,7 +108,7 @@ toutes choses égales par ailleurs (p < 0,001 pour chaque variable sauf l'âge) 
 Sur l'ensemble des analyses (clustering, classification, régression), le milieu rural ressort
 systématiquement associé à une pauvreté plus élevée et un accès moindre aux infrastructures de base.
 Ce résultat, bien connu au niveau national, se confirme ici après contrôle du niveau d'éducation, de
-l'emploi et de la région — ce n'est pas un simple effet de composition régionale.
+l'emploi et de la région  -  ce n'est pas un simple effet de composition régionale.
 
 ## Recommandations pour le ciblage des politiques sociales
 

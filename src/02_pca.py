@@ -1,5 +1,5 @@
 """
-02_pca.py — ACP sur les conditions de vie des ménages (variables confirmées EHCVM 2018-2019).
+02_pca.py  -  ACP sur les conditions de vie des ménages (variables confirmées EHCVM 2018-2019).
 Sortie : data/processed/pca_scores.csv, data/processed/pca_loadings.csv,
          reports/figures/pca_variance.png
 """
@@ -41,7 +41,7 @@ def run_pca(n_components=5):
     plt.bar(range(1, n_components + 1), explained * 100)
     plt.plot(range(1, n_components + 1), np.cumsum(explained) * 100, color="red", marker="o")
     plt.xlabel("Composante"); plt.ylabel("% variance expliquée")
-    plt.title("ACP — Variance expliquée (conditions de vie, EHCVM 2018-2019)")
+    plt.title("ACP  -  Variance expliquée (conditions de vie, EHCVM 2018-2019)")
     plt.tight_layout()
     plt.savefig(os.path.join(FIG_DIR, "pca_variance.png"), dpi=150)
     plt.close()

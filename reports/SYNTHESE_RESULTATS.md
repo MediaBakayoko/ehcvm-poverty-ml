@@ -1,5 +1,5 @@
 
-# SYNTHESE DES RESULTATS — Machine Learning for Multidimensional Poverty Profiling, Côte d'Ivoire
+# SYNTHESE DES RESULTATS  -  Machine Learning for Multidimensional Poverty Profiling, Côte d'Ivoire
 ## Données réelles EHCVM 2018-2019 (INS/Banque Mondiale), 12 992 ménages
 
 ## 1. Taux de pauvreté monétaire officiel (national, pondéré)
@@ -23,13 +23,13 @@ accès à l'assainissement amélioré, région, branche d'activité du chef de m
 
 ## 5. Régression du niveau de vie (WLS, R²=0.51)
 Effets significatifs (p<0.001) sur log(dépense/équivalent-adulte) :
-- Taille du ménage : effet négatif fort (-0.118) — économies d'échelle négatives / charge démographique
+- Taille du ménage : effet négatif fort (-0.118)  -  économies d'échelle négatives / charge démographique
 - Milieu rural : effet négatif (-0.129) vs urbain
 - Électricité : effet positif fort (+0.174)
 - Eau potable : effet positif (+0.136)
 - Alphabétisation du chef : effet positif (+0.138)
 - Diplôme du chef : effet positif (+0.085)
-- Niveau d'éducation du chef : effet négatif léger (-0.024, à interpréter avec prudence — colinéarité avec diplôme)
+- Niveau d'éducation du chef : effet négatif léger (-0.024, à interpréter avec prudence  -  colinéarité avec diplôme)
 
 ## 6. Urbain vs rural
 Milieu rural systématiquement associé à une pauvreté plus élevée et un accès moindre aux infrastructures,
@@ -37,9 +37,9 @@ confirmé à la fois par le clustering et la régression.
 
 ## 7. Recommandations pour le ciblage des politiques sociales
 1. Prioriser les régions du Nord-Ouest et de l'Ouest (Tonkpi, Kabadougou, Bafing, Cavally, N'Zi) où la pauvreté dépasse 48%.
-2. Cibler les ménages du cluster 1 (très vulnérable) : accès eau/électricité quasi inexistant — investir en infrastructures de base avant tout transfert monétaire.
+2. Cibler les ménages du cluster 1 (très vulnérable) : accès eau/électricité quasi inexistant  -  investir en infrastructures de base avant tout transfert monétaire.
 3. L'éducation (alphabétisation, diplôme) du chef de ménage reste le levier le plus robuste et actionnable à moyen terme.
 4. Les programmes de ciblage géographique simples (région + milieu rural) captent déjà une grande part du signal de vulnérabilité, en complément du profil socioéconomique du ménage.
 5. Rappel méthodologique : le quintile de richesse (patrimoine) ne doit PAS servir de critère d'éligibilité à des
-   programmes de lutte contre la pauvreté monétaire — ce projet confirme que la pauvreté officielle (EHCVM) recoupe
+   programmes de lutte contre la pauvreté monétaire  -  ce projet confirme que la pauvreté officielle (EHCVM) recoupe
    partiellement mais pas totalement les quintiles de richesse basés sur les actifs.

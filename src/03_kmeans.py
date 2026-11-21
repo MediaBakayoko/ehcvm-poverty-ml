@@ -1,5 +1,5 @@
 """
-03_kmeans.py — Segmentation K-Means des ménages sur les scores ACP (conditions de vie).
+03_kmeans.py  -  Segmentation K-Means des ménages sur les scores ACP (conditions de vie).
 Sortie : data/processed/menage_clusters.csv, reports/figures/elbow_silhouette.png,
          reports/cluster_profiles.csv
 """

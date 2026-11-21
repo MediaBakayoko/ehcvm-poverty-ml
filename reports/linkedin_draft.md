@@ -1,12 +1,12 @@
-# Post LinkedIn — brouillon final (à valider)
+# Post LinkedIn  -  brouillon final (à valider)
 
 🔍 **28% des ménages ivoiriens sous le seuil de pauvreté : ce que le Machine Learning révèle**
 
 J'ai mené une analyse multidimensionnelle de la pauvreté en Côte d'Ivoire à partir des microdonnées
-officielles EHCVM 2018-2019 (INS / Banque Mondiale) — 12 992 ménages, échantillon national.
+officielles EHCVM 2018-2019 (INS / Banque Mondiale)  -  12 992 ménages, échantillon national.
 
 🎯 Objectif : identifier les profils de ménages les plus vulnérables à partir de leurs conditions de
-vie, niveau d'éducation, situation professionnelle et dépenses — en distinguant rigoureusement la
+vie, niveau d'éducation, situation professionnelle et dépenses  -  en distinguant rigoureusement la
 pauvreté monétaire officielle (seuil EHCVM appliqué à la dépense/équivalent-adulte) du simple
 quintile de richesse (patrimoine), trop souvent confondus.
 
@@ -23,7 +23,7 @@ supervisée du statut de pauvreté officiel (AUC = 0,89) → régression pondér
   niveau de vie, après contrôle du milieu urbain/rural
 
 💡 Pour le ciblage des politiques sociales : les régions du Nord-Ouest et de l'Ouest (Tonkpi,
-Kabadougou, Bafing, Cavally) concentrent la pauvreté la plus sévère — un ciblage géographique simple
+Kabadougou, Bafing, Cavally) concentrent la pauvreté la plus sévère  -  un ciblage géographique simple
 capte déjà une grande part du signal de vulnérabilité, à affiner par le profil socioéconomique du ménage.
 
 💻 Code, méthodologie et résultats complets en open-source :

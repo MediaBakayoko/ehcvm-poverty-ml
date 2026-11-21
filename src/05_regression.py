@@ -1,5 +1,5 @@
 """
-05_regression.py — Régression pondérée (WLS) du log(dépense/équivalent-adulte) — niveau de vie.
+05_regression.py  -  Régression pondérée (WLS) du log(dépense/équivalent-adulte)  -  niveau de vie.
 Sortie : reports/regression_summary.txt, reports/figures/regression_coefficients.png
 """
 import os
@@ -36,13 +36,13 @@ def run():
     print(model.summary())
 
     with open(os.path.join(REPORT_DIR, "regression_summary.txt"), "w", encoding="utf-8") as f:
-        f.write("Variable dépendante : log(pcexp) — dépense par équivalent-adulte (niveau de vie)\n\n")
+        f.write("Variable dépendante : log(pcexp)  -  dépense par équivalent-adulte (niveau de vie)\n\n")
         f.write(str(model.summary()))
 
     coefs = model.params.drop("const").sort_values()
     plt.figure(figsize=(7, 5))
     coefs.plot(kind="barh", color=["tab:red" if v < 0 else "tab:green" for v in coefs])
-    plt.title("Effets estimés sur log(dépense/équivalent-adulte) — EHCVM 2018-2019")
+    plt.title("Effets estimés sur log(dépense/équivalent-adulte)  -  EHCVM 2018-2019")
     plt.xlabel("Coefficient (WLS)")
     plt.tight_layout()
     plt.savefig(os.path.join(FIG_DIR, "regression_coefficients.png"), dpi=150)

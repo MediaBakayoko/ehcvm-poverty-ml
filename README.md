@@ -39,7 +39,7 @@ produite par l'Institut National de la Statistique (INS), diffusée par la Banqu
 4. Identifier les caractéristiques associées à la vulnérabilité.
 5. Comparer les profils urbains et ruraux.
 
-## Méthodologie — précision méthodologique clé
+## Méthodologie  -  précision méthodologique clé
 La **pauvreté monétaire** est définie officiellement par l'INS/Banque Mondiale à partir de la
 **dépense de consommation par équivalent-adulte** comparée au **seuil national de pauvreté**
 (variable `pauvre`/`welfare` du fichier `ehcvm_welfare_CIV2018`, pondérée par `hhweight`).
@@ -59,7 +59,7 @@ Dans ce projet, la cible supervisée "pauvre / non pauvre" provient **exclusivem
    (équipements, logement, accès eau/électricité/assainissement, éducation du chef de ménage, etc.).
 3. **K-Means** (`src/03_kmeans.py`) : segmentation en typologies de ménages à partir des composantes ACP.
 4. **Classification supervisée** (`src/04_classification.py`) : prédiction du statut de pauvreté
-   officiel (seuil EHCVM) — Random Forest / Gradient Boosting, avec pondération `hhweight`.
+   officiel (seuil EHCVM)  -  Random Forest / Gradient Boosting, avec pondération `hhweight`.
 5. **Régression** (`src/05_regression.py`) : modélisation du log de la dépense par équivalent-adulte
    en fonction des caractéristiques du ménage (éducation, emploi, région, milieu).
 6. **Cartographie** (`src/06_mapping.py`) : taux de pauvreté et typologies par région.
@@ -88,7 +88,7 @@ python src/06_mapping.py
 ```
 
 ## Auteur
-Média Marcel Bakayoko — Expert géomatique / données géospatiales & agricoles / GeoAI / Suivi-Évaluation.
+Média Marcel Bakayoko  -  Expert géomatique / données géospatiales & agricoles / GeoAI / Suivi-Évaluation.
 
 ## Licence des données
 Microdonnées EHCVM 2018-2019 © Institut National de la Statistique de Côte d'Ivoire / Banque Mondiale,

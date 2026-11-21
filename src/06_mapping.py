@@ -1,5 +1,5 @@
 """
-06_mapping.py — Carte des disparités régionales de pauvreté (33 régions, EHCVM 2018-2019).
+06_mapping.py  -  Carte des disparités régionales de pauvreté (33 régions, EHCVM 2018-2019).
 
 Fond de carte : GADM 4.1 niveau 2 (régions administratives Côte d'Ivoire), à placer dans
 data/raw/gadm_civ2/gadm41_CIV_2.json (téléchargeable librement sur https://gadm.org).
@@ -73,7 +73,7 @@ def run():
             for _, row in merged.iterrows():
                 c = row.geometry.centroid
                 ax.annotate(f"{row['taux_pauvrete_pct']:.0f}%", (c.x, c.y), fontsize=6, ha="center")
-            ax.set_title("Disparités régionales de pauvreté monétaire — Côte d'Ivoire\n"
+            ax.set_title("Disparités régionales de pauvreté monétaire  -  Côte d'Ivoire\n"
                          "(EHCVM 2018-2019, seuil officiel INS, 33 régions)", fontsize=12)
             ax.axis("off")
             plt.tight_layout()
@@ -83,9 +83,9 @@ def run():
                 os.path.join(BASE, "data", "processed", "poverty_by_region.geojson"), driver="GeoJSON")
             print(f"Carte sauvegardée : {MAP_DIR}/poverty_rate_by_region.png")
         else:
-            print(f"Fond de carte introuvable ({GEO_PATH}) — télécharger GADM CIV niveau 2.")
+            print(f"Fond de carte introuvable ({GEO_PATH})  -  télécharger GADM CIV niveau 2.")
     except ImportError:
-        print("geopandas non installé — tableau seul produit (pip install geopandas).")
+        print("geopandas non installé  -  tableau seul produit (pip install geopandas).")
 
     return agg
 

@@ -1,12 +1,12 @@
-Variable dépendante : log(pcexp) — dépense par équivalent-adulte (niveau de vie)
+Variable dépendante : log(pcexp)  -  dépense par équivalent-adulte (niveau de vie)
 
                             WLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  pcexp   R-squared:                       0.513
 Model:                            WLS   Adj. R-squared:                  0.512
 Method:                 Least Squares   F-statistic:                     1138.
-Date:                Wed, 18 Nov 2026   Prob (F-statistic):               0.00
-Time:                        21:29:24   Log-Likelihood:                -10393.
+Date:                Sat, 21 Nov 2026   Prob (F-statistic):               0.00
+Time:                        09:27:22   Log-Likelihood:                -10393.
 No. Observations:               12992   AIC:                         2.081e+04
 Df Residuals:                   12979   BIC:                         2.091e+04
 Df Model:                          12                                         

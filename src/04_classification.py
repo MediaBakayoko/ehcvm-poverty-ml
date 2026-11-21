@@ -1,5 +1,5 @@
 """
-04_classification.py — Classification supervisée du statut de pauvreté officiel (EHCVM).
+04_classification.py  -  Classification supervisée du statut de pauvreté officiel (EHCVM).
 Sortie : reports/classification_report.txt, reports/figures/feature_importance.png,
          reports/figures/roc_curves.png
 """
@@ -65,7 +65,7 @@ def run():
 
     plt.plot([0, 1], [0, 1], "k--")
     plt.xlabel("Taux de faux positifs"); plt.ylabel("Taux de vrais positifs")
-    plt.title("Courbes ROC — prédiction pauvreté officielle (EHCVM 2018-2019)")
+    plt.title("Courbes ROC  -  prédiction pauvreté officielle (EHCVM 2018-2019)")
     plt.legend(); plt.tight_layout()
     plt.savefig(os.path.join(FIG_DIR, "roc_curves.png"), dpi=150)
     plt.close()
